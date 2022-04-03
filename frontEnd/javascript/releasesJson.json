@@ -1,0 +1,16 @@
+{
+    "releases": [
+      {
+          "Name": "Song 1",
+          "image": "../assets/images/gallery2.jpg",
+          "youtube": "https://www.youtube.com/",
+          "spotify": "https://open.spotify.com/track/3rmo8F54jFF8OgYsqTxm5d?si=050b5cd964cb4580"
+      },
+      {
+          "Name": "Song 2",
+          "image": "../assets/images/gallery3.jpg",
+          "youtube": "https://www.youtube.com/",
+          "spotify": "https://open.spotify.com/track/3rmo8F54jFF8OgYsqTxm5d?si=050b5cd964cb4580"
+      }
+    ]
+  }

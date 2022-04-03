@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module"src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet"href="style/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <nav class="py-5 shadow md:flex md:items-center md:justify-between">
+        <div class="brand flex justify-between items-center">
+            <img src="./assets/images/logo.png"alt="logo">
+            <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+        <ion-icon name="menu"onclick="Menu(this)"></ion-icon>
+      </span>
+        </div>
+        <ul class="md:flex md:items-center md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6 md:my-0 link">
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0 link">
+                <a href="views/about.html" class="">About Me</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0 link">
+                <a href="views/event.html" class="">Events</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0 link">
+                <a href="views/release.html" class="">Releases</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="home">
+        <section class="hero flex items-center gap-40">
+            <div class="social">
+                <div class="line"></div>
+                <ul class="socialLinks list-none flex flex-col gap-10">
+                    <li class="socialLink">
+                        <a href="#" class=""><i class="fi fi-brands-spotify"></i></a>
+                    </li>
+                    <li class="socialLink">
+                        <a href="#" class="">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="socialLink">
+                        <a href="#" class=""><i class="fi fi-brands-instagram"></i></a>
+                    </li>
+                    <li class="socialLink">
+                        <a href="#" class=""><i class="fi fi-brands-facebook"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content flex flex-col gap-20">
+                <div class="text flex flex-col gap-10">
+                    <p>Hi there</p>
+                    <h1>I'm <span>Mouh Milo</span></h1>
+                    <p>A ray star musician</p>
+                </div>
+                <div class="linkButtons flex gap-10">
+                    <a href="" class="eventBtn">Events</a>
+                    <a href="" class="releaseBtn">Releases</a>
+                </div>
+            </div>
+        </section>
+        <section class="about gap-10 lg:flex lg:items-center md:gap-20">
+            <div class="image flex-1">
+                <img src="./assets/images/home-about.jpg"alt="">
+            </div>
+            <div class="content flex-1 flex flex-col gap-10 md:mt-11">
+                <h1>ABOUT <span>ME</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa ipsa voluptatibus architecto necessitatibus nulla, facere eligendi laboriosam inventore quidem reiciendis corporis ad excepturi dicta? Minima, dolorem quos! Perspiciatis,
+                    repellendus!
+                </p>
+                <a href="#">MORE</a>
+            </div>
+        </section>
+        <section class="achievements">
+            <h1 class="title">MY <span>ACHIEVEMENTS</span></h1>
+            <ul class="flex flex-wrap justify-center gap-x-72 gap-y-20">
+                <li class="flex items-center flex-col">
+                    <div class="icon">
+                        <ion-icon name="musical-notes"></ion-icon>
+                    </div>
+                    <h1>90</h1>
+                    <P>Songs released</P>
+                </li>
+                <li class="flex items-center flex-col">
+                    <div class="icon">
+                        <ion-icon name="disc"></ion-icon>
+                    </div>
+                    <h1>10</h1>
+                    <P>Albums dropped</P>
+                </li>
+                <li class="flex items-center flex-col">
+                    <div class="icon">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </div>
+                    <h1>23M</h1>
+                    <P>Youtube subscribers</P>
+                </li>
+                <li class="flex items-center flex-col">
+                    <div class="icon">
+                        <i class="fi fi-brands-spotify"></i>
+                    </div>
+                    <h1>1,000,567</h1>
+                    <P>Monthly listeners</P>
+                </li>
+                <li class="flex items-center flex-col">
+                    <div class="icon">
+                        <ion-icon name="barcode"></ion-icon>
+                    </div>
+                    <h1>20</h1>
+                    <P>national and international party</P>
+                </li>
+            </ul>
+        </section>
+        <section class="gallery overflow-hidden text-gray-700">
+            <div class="container py-2 mx-auto lg:pt-24">
+                <div class="flex flex-wrap -m-1 md:-m-2">
+                    <div class="flex flex-wrap lg:w-1/2 md:w-full">
+                        <div class="lg:w-1/2 p-1 md:p-2 md:w-full sm:w-full">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"src="./assets/images/gallery1.jpg">
+                        </div>
+                        <div class="lg:w-1/2 p-1 md:p-2 md:w-full sm:w-full">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"src="./assets/images/gallery2.jpg">
+                        </div>
+                        <div class="lg:w-full p-1 md:p-2">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"src="./assets/images/gallery3.jpg">
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap lg:w-1/2 md:w-full">
+                        <div class="w-full p-1 md:p-2">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"src="./assets/images/gallery4.jpg">
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"src="./assets/images/gallery5.jpg">
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"src="./assets/images/gallery6.jpg"">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="songs">
+          <h1 class="title">LATEST <span>SONGS</span></h1>
+            
+          <div class="grid grid-cols-6 gap-4 justfify-center">
+              <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2 flex flex-col items-center">
+                <div class="bg-white rounded-lg mt-5" style="width: 65%;">
+                  <img
+                    src="./assets/images/gallery2.jpg"
+                    class="h-40 rounded-md"
+                    alt="" style="width: 100%;"
+                  />
+                </div>
+                <div class="contentSong bg-white shadow-lg rounded-lg -mt-4">
+                  <div class="py-5 px-5">
+                    <span class="font-bold text-gray-800 text-lg">Song 1</span>
+                    <div class="flex items-center justify-between">
+                      <div class="text-sm text-gray-600 font-light">
+                        <a href="#" class="icon flex rounded-full font-bold text-white px-4 py-4 transition duration-300 ease-in-out hover:bg-blue-600">
+                          <i class="fi fi-brands-spotify"></i>
+                        </a>
+                      </div>
+                      <div class="text-2xl text-red-600 font-bold">
+                        <a href="#" class="icon flex rounded-full font-bold text-white px-4 py-4 transition duration-300 ease-in-out hover:bg-blue-600">
+                          <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end cols -->
+    
+              <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2 flex flex-col items-center">
+                <div class="bg-white rounded-lg mt-5" style="width: 65%;">
+                  <img
+                    src="./assets/images/gallery3.jpg"
+                    class="h-40 rounded-md"
+                    alt="" style="width: 100%;"
+                  />
+                </div>
+                <div class="contentSong bg-white shadow-lg rounded-lg -mt-4">
+                  <div class="py-5 px-5">
+                    <span class="font-bold text-gray-800 text-lg">Song 2</span>
+                    <div class="flex items-center justify-between">
+                      <div class="text-sm text-gray-600 font-light">
+                        <a href="#" class="icon flex rounded-full font-bold text-white px-4 py-4 transition duration-300 ease-in-out hover:bg-blue-600">
+                          <i class="fi fi-brands-spotify"></i>
+                        </a>
+                      </div>
+                      <div class="text-2xl text-red-600 font-bold">
+                        <a href="#" class="icon flex rounded-full font-bold text-white px-4 py-4 transition duration-300 ease-in-out hover:bg-blue-600">
+                          <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end cols -->
+    
+              <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2 flex flex-col items-center">
+                <div class="bg-white rounded-lg mt-5" style="width: 65%;">
+                  <img
+                    src="./assets/images/gallery4.jpg"
+                    class="h-40 rounded-md"
+                    alt="" style="width: 100%;"
+                  />
+                </div>
+                <div class="contentSong bg-white shadow-lg rounded-lg -mt-4">
+                  <div class="py-5 px-5">
+                    <span class="font-bold text-gray-800 text-lg">Song 1</span>
+                    <div class="flex items-center justify-between">
+                      <div class="text-sm text-gray-600 font-light">
+                        <a href="#" class="icon flex rounded-full font-bold text-white px-4 py-4 transition duration-300 ease-in-out hover:bg-blue-600">
+                          <i class="fi fi-brands-spotify"></i>
+                        </a>
+                      </div>
+                      <div class="text-2xl text-red-600 font-bold">
+                        <a href="#" class="icon flex rounded-full font-bold text-white px-4 py-4 transition duration-300 ease-in-out hover:bg-blue-600">
+                          <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end cols -->
+          </div>
+        </section>
+        <section class="contact">
+          <h1 class="title">GET IN <span>TOUCH</span></h1>
+          <div class="relative flex items-top justify-center sm:items-center sm:pt-0">
+            <div class="max-w-6xl mx-auto">
+                <div class="mt-8">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="p-6 mr-2 contactInfo rounded-lg">
+                            <p class="text-normal text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2">
+                                Fill in the form to start a conversation
+                            </p>
+    
+                            <div class="flex items-center mt-8 text-gray-600 dark:text-gray-400">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                                <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                                    Acme Inc, Street, State,
+                                    Postal Code
+                                </div>
+                            </div>
+    
+                            <div class="flex items-center mt-4 text-gray-600 dark:text-gray-400">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                                <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                                    +44 1234567890
+                                </div>
+                            </div>
+    
+                            <div class="flex items-center mt-2 text-gray-600 dark:text-gray-400">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                                <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                                    info@acme.org
+                                </div>
+                            </div>
+                        </div>
+    
+                        <form class="p-6 flex flex-col justify-center">
+                            <div class="flex flex-col">
+                                <label for="name" class="hidden">Full Name</label>
+                                <input type="name" name="name" id="name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none">
+                            </div>
+    
+                            <div class="flex flex-col mt-2">
+                                <label for="email" class="hidden">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none">
+                            </div>
+    
+                            <div class="flex flex-col mt-2">
+                                <label for="tel" class="hidden">Number</label>
+                                <input type="tel" name="tel" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none">
+                            </div>
+    
+                            <button type="submit" class="md:w-32 text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+      <div class="flex justify-center mt-2">
+        <p class="text-gray-400"> Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul');
+            e.name === 'menu' ? (e.name ="close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name ="menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+        }
+    </script>
+</body>
+
+</html>

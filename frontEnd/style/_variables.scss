@@ -1,0 +1,26 @@
+//Primary and theme colors
+$primary-color: #CD3A24;
+$primary-color-down: #f14f36;
+$accent-color: #FF4E33;
+$background-color: #060F0E;
+$text-primary-color: #FFFFFF;
+$text-secondary-color: #eee8e8;
+//typography
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$heading-font-family: 'Raleway',
+sans-serif;
+$display-font-family: 'Playfair Display',
+sans-serif;
+$body-font-family: 'Raleway',
+sans-serif;
+$base-font-size: 20px;
+$small-font-size: 16px;
+$big-font-size: 40px;
+$nav-links-font-size: 20px;
+$display-font-size: 60px;
+$heading-font-size: 26px;
+$secondary-display-font-size: 60px;
+$medium-font-size: 30px;
+$bold-font-weight: 800;
+$base-font-weight: 600;

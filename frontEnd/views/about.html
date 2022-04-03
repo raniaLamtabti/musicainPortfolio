@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <nav class="py-5 shadow md:flex md:items-center md:justify-between">
+        <div class="brand flex justify-between items-center">
+            <img src="../assets/images/logo.png" alt="logo">
+            <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+            </span>
+        </div>
+        <ul
+            class="md:flex md:items-center md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6 md:my-0 link">
+                <a href="../index.html" class="">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0 link">
+                <a href="about.html" class="active">About Me</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0 link">
+                <a href="event.html" class="">Events</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0 link">
+                <a href="release.html" class="">Releases</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="about lg:gap-10 lg:flex lg:items-center md:gap-50 sm:gap-50">
+        <div class="image flex-1">
+            <img src="../assets/images/gallery6.jpg" alt="">
+        </div>
+        <div class="content flex-1 flex flex-col gap-10">
+            <div class="text flex flex-col gap-5">
+                <h1>20 YEARS OF EXPERIENCE</h1>
+                <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, alias.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem necessitatibus quaerat veritatis
+                    laborum, sequi corrupti blanditiis eius amet fuga dolor?</p>
+            </div>
+            <div class="flex-1 informations gap-10 flex items-center gap-20">
+                <ul class="name flex flex-col gap-4">
+                    <li>Name</li>
+                    <li>Born</li>
+                    <li>Genres</li>
+                    <li>Occupation</li>
+                    <li>Years active</li>
+                </ul>
+                <ul class="value flex flex-col gap-4">
+                    <li>Mouh Milano</li>
+                    <li>April 25, 1985</li>
+                    <li>Ray</li>
+                    <li>Singer</li>
+                    <li>2009-present</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="flex justify-center mt-2">
+            <p class="text-gray-400"> Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul');
+            e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add(
+                'opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove(
+                    'opacity-100'))
+        }
+    </script>
+</body>
+
+</html>
