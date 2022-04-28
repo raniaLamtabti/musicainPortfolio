@@ -1,16 +1,58 @@
 {
     "releases": [
       {
-          "Name": "Song 1",
-          "image": "../assets/images/gallery2.jpg",
-          "youtube": "https://www.youtube.com/",
-          "spotify": "https://open.spotify.com/track/3rmo8F54jFF8OgYsqTxm5d?si=050b5cd964cb4580"
+          "name": "Nad El Borkan",
+          "image": "assets/images/7.jpeg",
+          "youtube": "https://www.youtube.com/watch?v=9xVBWd9biCI",
+          "spotify": "https://open.spotify.com/track/3sphBPmMtnnJTLn49xYiT3?si=0e267881334d4e18"
       },
       {
-          "Name": "Song 2",
-          "image": "../assets/images/gallery3.jpg",
-          "youtube": "https://www.youtube.com/",
-          "spotify": "https://open.spotify.com/track/3rmo8F54jFF8OgYsqTxm5d?si=050b5cd964cb4580"
+          "name": "Balek",
+          "image": "assets/images/9.jpeg",
+          "youtube": "https://www.youtube.com/c/MOUHMILANOOFFICIEL/",
+          "spotify": "https://open.spotify.com/track/6y6ogtH99BJiEiBlEIY77A?si=b58ae97d8f7a47a5"
+      },
+      {
+          "name": "Mazalni kima bikri",
+          "image": "assets/images/5.jpeg",
+          "youtube": "https://www.youtube.com/c/MOUHMILANOOFFICIEL/",
+          "spotify": "https://open.spotify.com/track/4qnmWklH3MwTy41kDCbex9?si=92616be6e8f1453d"
+      },
+      {
+          "name": "Wech ya les Z'hommes",
+          "image": "assets/images/4.jpeg",
+          "youtube": "https://www.youtube.com/c/MOUHMILANOOFFICIEL/",
+          "spotify": "https://open.spotify.com/track/0Mh0v5WSnsugToDteMJH1x?si=a438aaf1b46b4d9d"
+      },
+      {
+          "name": "Meskin",
+          "image": "assets/images/1.jpeg",
+          "youtube": "https://www.youtube.com/c/MOUHMILANOOFFICIEL/",
+          "spotify": "https://open.spotify.com/track/3OFZAF6TKZn3o0UKXL0W4s?si=3786f96b512a4ed5"
+      },
+      {
+          "name": "Hkali Djddi",
+          "image": "assets/images/2.jpeg",
+          "youtube": "https://www.youtube.com/c/MOUHMILANOOFFICIEL",
+          "spotify": "https://open.spotify.com/track/3agyJQm1vdgfPnlOwPFntL?si=15668ffb3d744ccd"
+      },
+      {
+          "name": "Machafouhach",
+          "image": "assets/images/3.jpeg",
+          "youtube": "https://www.youtube.com/watch?v=m0_SMiOecko",
+          "spotify": "https://open.spotify.com/track/24jg1DbZgIwIBwascANUo0?si=57ab4789cd8d470b"
+      },
+      {
+          "name": "Lwalida Samhini",
+          "image": "assets/images/6.jpeg",
+          "youtube": "https://www.youtube.com/c/MOUHMILANOOFFICIEL",
+          "spotify": "https://open.spotify.com/track/1y1c84BfeLUSIEhjtQu59s?si=7e9b7ac911444909"
+      },
+      {
+          "name": "Maradona",
+          "image": "assets/images/8.jpeg",
+          "youtube": "https://www.youtube.com/c/MOUHMILANOOFFICIEL",
+          "spotify": "https://open.spotify.com/track/4cGPcB0mOhGSSyjqJyOFAK?si=d8b3449d231043d2"
       }
     ]
   }

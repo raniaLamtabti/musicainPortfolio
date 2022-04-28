@@ -275,13 +275,19 @@ nav ul .link .active:after {
     margin-top: 40px;
   }
 }
-.home .songs .contentSong {
+.home .songs .song {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 350px;
+}
+.home .songs .song .contentSong {
   width: 80%;
 }
-.home .songs .contentSong .icon {
+.home .songs .song .contentSong .icon {
   background-color: #CD3A24;
 }
-.home .songs .contentSong .icon i {
+.home .songs .song .contentSong .icon i {
   font-size: 24px;
   margin-bottom: -2px;
 }

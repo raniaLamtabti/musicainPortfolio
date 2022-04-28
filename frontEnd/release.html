@@ -8,28 +8,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Home</title>
 </head>
 
 <body>
     <nav class="py-5 shadow md:flex md:items-center md:justify-between">
         <div class="brand flex justify-between items-center">
-            <img src="../assets/images/logo.png" alt="logo">
+            <img src="assets/images/logo.png" alt="logo">
             <span class="text-3xl cursor-pointer mx-2 md:hidden block">
                 <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
             </span>
         </div>
-        <ul
-            class="md:flex md:items-center md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <ul class="md:flex md:items-center md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
             <li class="mx-4 my-6 md:my-0 link">
-                <a href="../index.html" class="">Home</a>
+                <a href="index.html" class="">Accueil</a>
             </li>
             <li class="mx-4 my-6 md:my-0 link">
-                <a href="about.html" class="">About Me</a>
+                <a href="views/about.html" class="">À Propos</a>
             </li>
             <li class="mx-4 my-6 md:my-0 link">
-                <a href="event.html" class="">Events</a>
+                <a href="views/event.html" class="">Evenements</a>
             </li>
             <li class="mx-4 my-6 md:my-0 link">
                 <a href="release.html" class="active">Releases</a>
@@ -58,8 +57,8 @@
                 'opacity-100'))
         }
     </script>
-    <script src="../javascript/releasesJson.json"></script>
-    <script src="../javascript/releases.js"></script>
+    <script src="./javascript/releasesJson.json"></script>
+    <script src="./javascript/releases.js"></script>
 </body>
 
 </html>
